@@ -1,154 +1,177 @@
 /* Body */
-        body {
-            background-image: linear-gradient(to bottom right, #27374D, #526D82, #9DB2BF);
-            font-family: cursive;
-            color: #77869d;
-            height: 300vh;
-        }
+body {
+    background-image: linear-gradient(to bottom right, #662222, #842A3B, #A3485A);
+    font-family: cursive;
+    color: #F5DAA7;
+    height: 300vh;
+}
 
-        h2 {
-            color: #DDE6ED
-        }
+h2 {
+    color: #F5DAA7;
+}
 
-        h1 {
-            color: #77869d;
-        }
+h1 {
+    color: #F5DAA7;
+}
 
-        .title {
-            text-align: center;
+.title {
+    text-align: center;
 
-        }
+}
 
-        /* Navigation Bar */
-        .nav-parent {
-            display: flex;
-            justify-content: center;
-        }
+/* Navigation Bar */
+.nav-parent {
+    display: flex;
+    justify-content: center;
+}
 
-        .nav-main {
-            width: 1200px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
+.nav-main {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-        .nav-links {
-            display: flex;
-            align-items: center;
-            gap: 40px;
-        }
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
-        .nav-links a {
-            text-decoration: none;
-            color: #DDE6ED;
-        }
+.nav-links a {
+    text-decoration: none;
+    color: #F5DAA7;
+}
 
-        .nav-button {
-            background-color: #DDE6ED;
-            color: #526D82;
-            border: 2px solid #27374D;
-            align-items: center;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-right: 20px;
-            border-radius: 15px;
-        }
-        /* Banner Image */
-        .banner-image {
-            align-content: right;
-            width: 100;
-        }
+.nav-button {
+    background-color: #f8e9cc;
+    color: #F5DAA7;
+    border: 2px solid #F5DAA7;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
 
-        /* About Me */
-        .aboutme-parent {
-            display: flex;
-            justify-content: center;
-        }
+/* Banner Image */
+.banner-image {
+    align-content: right;
+    width: 100;
+}
 
-        .aboutme-section {
-            position: relative;
-            z-index: 1;
-            max-width: 960px;
-            background: #f1f7fc;
-            border-radius: 5px;
-            border: 2px solid #2b4953;
-            padding: 40px;
-        }
+/* About Me */
+.aboutme-parent {
+    display: flex;
+    justify-content: center;
+}
 
-        .name {
-            font-size: 20px;
-            margin-top: 50px;
+.aboutme-section {
+    position: relative;
+    z-index: 1;
+    max-width: 960px;
+    background: #fff5e2;
+    border-radius: 5px;
+    border: 2px solid #F5DAA7;
+    padding: 40px;
+}
 
-        }
+.name {
+    font-size: 20px;
+    margin-top: 50px;
 
-        /* Projects */
-        .project-parent {
-            display: flex;
-            justify-content: center;
-        }
+}
 
-        .project-card {
-            width: 350px;
-            border: 2px solid #27374D;
-        }
+/* Projects */
+.project-parent {
+    display: flex;
+    justify-content: center;
+}
 
-        .project-image {
-            width: 100%;
-            height: 200px;
-        }
+.project-card {
+    width: 350px;
+    border: 2px solid #F5DAA7;
+}
 
-        .project-body {
-            padding: 10px 20px;
-        }
+.project-image {
+    width: 100%;
+    height: 200px;
+}
 
-        .project-button {
-            background-color: transparent;
-            color: #27374D;
-            border: 2px solide white;
-            padding: 5px 10px;
-            border-radius: 15px;
-        }
+.project-body {
+    padding: 10px 20px;
+}
 
-        .project-main {
-            width: 1200px;
-            display: flex;
-            justify-content: space-between;
-        }
+.project-button {
+    background-color: transparent;
+    color: #F5DAA7;
+    border: 2px solid #F5DAA7;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
 
-        /* Contact */
-        .contact-parent {
-            display: flex;
-            justify-content: center;
-        }
+.project-main {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
 
-        .content-form {
-            border: 2px solid white;
-            width: 400px;
-            padding: 20px;
-        }
+/* Contact */
+.contact-parent {
+    display: flex;
+    justify-content: center;
+}
 
-        input {
-            background-color: transparent;
-            border: 2px solid #2b4953;
-            color: black;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            width: 100%;
-        }
+.content-form {
+    border: 2px solid #F5DAA7;
+    width: 400px;
+    padding: 20px;
+}
 
-        textarea {
-            background-color: transparent;
-            border: 2px solid white;
-            width: 100%;
-            height: 100px;
-            color: #2b4953;
-        }
+input {
+    background-color: transparent;
+    border: 2px solid #F5DAA7;
+    color: #F5DAA7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
 
-        .contact-btn {
-            padding: 10px 20px;
-            background-color: transparent;
-            border: 2 px solid white;
-            color: #2b4953;
-            width: 100%;
-            font-weight: bold;
-        }
+textarea {
+    background-color: transparent;
+    border: 2px solid #F5DAA7;
+    width: 100%;
+    height: 100px;
+    color: #F5DAA7;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #F5DAA7;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Social Media Icons */
+.button1 {
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 3px solid #F5DAA7;
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Monsterrat';
+    color: #F5DAA7;
+    margin: 10px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.button-img {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+}
